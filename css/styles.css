@@ -1,6 +1,31 @@
-.jumbotron {
-          background-image: url(../images/backgrounds/landing.jpg);
+.jumbotron-fluid {
+          background-image: url("../images/backgrounds/landing.jpg");
+          background-size: cover;
+          height:400px;
+          text-align: center;
         }
 .alignCenter {
           text-align: center;
         }
+#textHeader {
+  font-family: ;
+  font-size: 2.5em;
+  color: #fff;
+}
+
+.textWhite {
+    color: #fff;
+    font-size: 2.5em;
+    font-family: ;
+}
+
+row.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+
+> [class^="col-"],
+> [class*=" col-"] {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
