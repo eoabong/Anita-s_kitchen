@@ -85,6 +85,8 @@
 
 #foodsbg {
   background-image: url("../images/backgrounds/foodsBg.jpg");
-  margin-top: 50px;
-  margin-bottom: 50px;
 }
+ .rowtopbottommargin {
+   margin-top: 50px;
+   margin-bottom: 50px;
+ }
