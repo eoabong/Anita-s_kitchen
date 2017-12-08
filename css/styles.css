@@ -1,16 +1,63 @@
-.jumbotron-fluid {
-          background-image: url("../images/backgrounds/landing.jpg");
-          background-size: cover;
-          height:400px;
+.jumbotron {
           text-align: center;
+          padding: 0rem 0rem;
+          margin-bottom: 0rem;
+          background-color: none;
+          border-radius: 0.3rem;
         }
+.container-fluid{
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+#row1 {
+  margin-right: 0px;
+  margin-left: 0px;
+  margin-top: 0px;
+  padding-right: 0px;
+  padding-left: 0px;
+  padding-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-top: 0px;
+}
+
+#columns {
+  margin-right: 0px;
+  margin-left: 0px;
+  padding-right: 0px;
+  padding-left: 0px;
+  border-left: 0px;
+  border-right: 0px;
+}
+.bckgrd-section{
+  background-image: url("../images/backgrounds/landing.jpg");
+  background-size: 100%, 100%;
+  text-align: center;
+
+}
 .alignCenter {
           text-align: center;
+          align-items: center;
         }
-#textHeader {
+
+#Header {
   font-family: ;
   font-size: 2.5em;
   color: #fff;
+  background-image: url("../images/backgrounds/landing.jpg");
+  background-size: 100%, 100%;
+  text-align: center;
+}
+
+#row1 {
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-top: 0px;
 }
 
 .textWhite {
@@ -19,13 +66,22 @@
     font-family: ;
 }
 
-row.no-gutters {
-  margin-right: 0;
-  margin-left: 0;
-
-> [class^="col-"],
-> [class*=" col-"] {
-    padding-right: 0;
-    padding-left: 0;
-  }
+.classboxmodel {
+  padding-left:
 }
+
+.divWidth {
+    width: 25%;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: inline;
+    float: right;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.divClassCenter {
+    margin: 0 auto;
+ }

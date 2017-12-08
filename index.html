@@ -2,7 +2,8 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
     <script src="js/jquery-3.2.1.js"></script>
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/scripts.js"></script>
@@ -11,25 +12,84 @@
 
   <body>
     <div class="container-fluid">
-      <div class="jumbotron-fluid" id="textHeader">
+      <div class="jumbotron" id="Header">
         <div class="alignCenter">
           <img src="images/logoBig.png" alt="logoBig">
             <p>We provide The Best Food</p>
             <p>At The <b>Right Price</b></p>
         </div>
       </div>
-      <div class="row no-gutters">
+      <div class="row" id="row1">
         <div class="col-md-3">
+            <div class="row" id="row1">
               <p>Happy Hour</p>
+            </div>
+            <div class="row" id="row1">
               <p>Party Time</p>
+            </div>
         </div>
-        <div class="col-md-3 img"><img src="images/foodtop/breakfast.jpg" alt="breakfast"></div>
-        <div class="col-md-3 img"><img src="images/foodtop/lunch.jpg" alt="lunch"></div>
-        <div class="col-md-3 img"><img src="images/foodtop/dinner.jpg" alt="dinner"></div>
+        <div class="col-md-3"><img src="images/foodtop/breakfast.jpg" alt="breakfast"></div>
+        <div class="col-md-3"><img src="images/foodtop/lunch.jpg" alt="lunch"></div>
+        <div class="col-md-3"><img src="images/foodtop/dinner.jpg" alt="dinner"></div>
       </div>
       <div class="row">
-        <div class="col-md-6"></div>
-        <div class="col-md-6"></div>
+        <div class="col-md-6">
+          <div class="divClassCenter">
+              <img src="images/fastFood1.jpg" alt="Fast food 1">
+              <img src="images/fastFood2.jpg" alt="Fast food 2">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="divClassCenter">
+           <p>Fast Food</p>
+           <p>You'll love our delicios fast foods</p>
+           <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <p>Drinks</p>
+          <p>We also produce delicious drinks</p>
+          <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
+        </div>
+        <div class="col-md-6">
+          <img src="images/drink1.jpg" alt="Drinks">
+          <img src="images/drink2.jpg" alt="Drinks">
+        </div>
+      </div>
+      <div class="row">
+                    <ul class="nav nav-tabs">
+                      <li class="active"><a data-toggle="tab" href="#home">Home</a></li>
+                      <li><a data-toggle="tab" href="#menu1">Menu 1</a></li>
+                      <li><a data-toggle="tab" href="#menu2">Menu 2</a></li>
+                      <li><a data-toggle="tab" href="#menu3">Menu 3</a></li>
+                    </ul>
+
+                    <div class="tab-content">
+                      <div id="home" class="tab-pane fade in active">
+                        <h3>HOME</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                      </div>
+                      <div id="menu1" class="tab-pane fade">
+                        <h3>Menu 1</h3>
+                        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                      </div>
+                      <div id="menu2" class="tab-pane fade">
+                        <h3>Menu 2</h3>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+                      </div>
+                      <div id="menu3" class="tab-pane fade">
+                        <h3>Menu 3</h3>
+                        <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                      </div>
+                    </div>
+      </div>
+      <div class="row">
+      </div>
+      <div class="row">
+      </div>
+      <div class="row">
       </div>
     </div>
   </body>
