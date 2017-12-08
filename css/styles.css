@@ -36,12 +36,17 @@
   background-image: url("../images/backgrounds/landing.jpg");
   background-size: 100%, 100%;
   text-align: center;
-
 }
 .alignCenter {
           text-align: center;
           align-items: center;
         }
+.floatLeft {
+  float: left;
+}
+.floatRight {
+  float: right;
+}
 
 #Header {
   font-family: ;
