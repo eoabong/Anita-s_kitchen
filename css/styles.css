@@ -80,5 +80,11 @@
 }
 
 .divClassCenter {
-    margin: 0 auto;
+    margin: auto;
  }
+
+#foodsbg {
+  background-image: url("../images/backgrounds/foodsBg.jpg");
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
