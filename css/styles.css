@@ -3,7 +3,18 @@
           padding: 0rem 0rem;
           margin-bottom: 0rem;
           background-color: none;
-          border-radius: 0.3rem;
+          border-radius: 0rem;
+          /*height: 400px;*/
+        }
+
+#Header {
+          font-family: ;
+          font-size: 2.5em;
+          color: #fff;
+          background-image: url("../images/backgrounds/landing.jpg");
+          background-image: no-repeat;
+          background-size: 100%, 100%;
+          text-align: center;
         }
 .container-fluid{
   padding-right: 0px;
@@ -41,20 +52,13 @@
           text-align: center;
           align-items: center;
         }
+
 .floatLeft {
   float: left;
 }
-.floatRight {
-  float: right;
-}
 
-#Header {
-  font-family: ;
-  font-size: 2.5em;
-  color: #fff;
-  background-image: url("../images/backgrounds/landing.jpg");
-  background-size: 100%, 100%;
-  text-align: center;
+.floatR {
+  float: right;
 }
 
 .textWhite {
@@ -85,8 +89,19 @@
 
 #foodsbg {
   background-image: url("../images/backgrounds/foodsBg.jpg");
+  height: 599px;
 }
- .rowtopbottommargin {
+.rowtopbottommargin {
    margin-top: 50px;
    margin-bottom: 50px;
+   height: 450px;
  }
+
+#subscribe {
+  background-image: url("../images/backgrounds/subscribe.jpg");
+  height: 301px;
+}
+#lastrow {
+  height: 350px;
+  background-color: #FF5733;
+}
