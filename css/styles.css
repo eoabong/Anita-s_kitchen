@@ -118,6 +118,9 @@
   background-image: url("../images/foodtop/dinner.jpg");
   background-image: no-repeat;
 }
+.row1over:hover {
+    opacity: 0.5;
+}
 
 #row1row2{
   background-color: #FF5733;
