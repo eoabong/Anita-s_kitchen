@@ -14,6 +14,7 @@
           background-image: no-repeat;
           background-size: 100%, 100%;
           text-align: center;
+          height: 500px;
         }
 .container-fluid{
   padding-right: 0px;
@@ -51,6 +52,14 @@
           text-align: center;
           align-items: center;
         }
+.fonttype {
+  font-family: 'Roboto Slab', serif;
+  font-size: 2.5em;
+  color: #fff;
+}
+.p {
+  color: #fff;
+}
 
 .floatLeft {
   float: left;
@@ -109,14 +118,17 @@
 {
   background-image: url("../images/foodtop/breakfast.jpg");
   background-image: no-repeat;
+  padding-top: 75px;
 }
 #lunch{
   background-image: url("../images/foodtop/lunch.jpg");
   background-image: no-repeat;
+  padding-top: 75px;
 }
 #dinner{
   background-image: url("../images/foodtop/dinner.jpg");
   background-image: no-repeat;
+  padding-top: 75px;
 }
 .row1over:hover {
     opacity: 0.5;
