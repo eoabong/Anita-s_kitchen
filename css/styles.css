@@ -155,3 +155,11 @@
   padding-bottom: 21px;
   padding-left: 30px;
 }
+
+#img1
+    {
+    box-shadow: 5px 5px 5px #999;
+  }
+#img2 {
+
+}
