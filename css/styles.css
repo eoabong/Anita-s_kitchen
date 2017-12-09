@@ -4,7 +4,6 @@
           margin-bottom: 0rem;
           background-color: none;
           border-radius: 0rem;
-          /*height: 400px;*/
         }
 
 #Header {
@@ -104,4 +103,34 @@
 #lastrow {
   height: 350px;
   background-color: #FF5733;
+}
+
+#breakfast
+{
+  background-image: url("../images/foodtop/breakfast.jpg");
+  background-image: no-repeat;
+}
+#lunch{
+  background-image: url("../images/foodtop/lunch.jpg");
+  background-image: no-repeat;
+}
+#dinner{
+  background-image: url("../images/foodtop/dinner.jpg");
+  background-image: no-repeat;
+}
+
+#row1row2{
+  background-color: #FF5733;
+  color: #fff;
+  font-size: 2em;
+  font-family: ;
+  text-align: center;
+}
+
+#row1row1{
+  background-color: #fff;
+  color: #000000;
+  font-size: 2em;
+  font-family: ;
+  text-align: center;
 }
