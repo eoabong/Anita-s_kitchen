@@ -7,7 +7,7 @@
         }
 
 #Header {
-          font-family: ;
+          font-family: 'Roboto Slab', serif;
           font-size: 2.5em;
           color: #fff;
           background-image: url("../images/backgrounds/landing.jpg");
@@ -63,7 +63,7 @@
 .textWhite {
     color: #fff;
     font-size: 2.5em;
-    font-family: ;
+    font-family: 'Roboto Slab', serif;
 }
 
 .classboxmodel {
@@ -123,7 +123,7 @@
   background-color: #FF5733;
   color: #fff;
   font-size: 2em;
-  font-family: ;
+  font-family: 'Roboto Slab', serif;
   text-align: center;
   padding-top: 21px;
   padding-bottom: 21px;
@@ -134,7 +134,7 @@
   background-color: #fff;
   color: #000000;
   font-size: 2em;
-  font-family: ;
+  font-family: 'Roboto Slab', serif;
   text-align: center;
   padding-top: 21px;
   padding-bottom: 21px;
