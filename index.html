@@ -64,32 +64,24 @@
               </div>
         </div>
     </div>
-      <div class="row rowtopbottommargin"  id="foodsbg">
-                    <ul class="nav nav-tabs">
-                      <li class="active"><a data-toggle="tab" href="#home">Home</a></li>
-                      <li><a data-toggle="tab" href="#menu1">Menu 1</a></li>
-                      <li><a data-toggle="tab" href="#menu2">Menu 2</a></li>
-                      <li><a data-toggle="tab" href="#menu3">Menu 3</a></li>
-                    </ul>
 
-                    <div class="tab-content">
-                      <div id="home" class="tab-pane fade in active">
-                        <h3>HOME</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                      </div>
-                      <div id="menu1" class="tab-pane fade">
-                        <h3>Menu 1</h3>
-                        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                      </div>
-                      <div id="menu2" class="tab-pane fade">
-                        <h3>Menu 2</h3>
-                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
-                      </div>
-                      <div id="menu3" class="tab-pane fade">
-                        <h3>Menu 3</h3>
-                        <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-                      </div>
-                    </div>
+      <div class="row rowtopbottommargin alignCenter"  id="foodsbg">
+          <div class="container">
+                <ul class="nav nav-tab nav-justified">
+                <li class="active"><a href="#">Fast Food</a></li>
+                <li><a href="#">Drinks</a></li>
+                <li><a href="#">Chicken</a></li>
+                <li><a href="#">Rice</a></li>
+                </ul>
+
+                <script>
+                $(".nav li").on("click", function(){
+                $(".nav li").removeClass("active");
+                $(this).addClass("active");
+
+                });
+                </script>
+          </div>
       </div>
       <div class="row">
       </div>
@@ -97,18 +89,16 @@
         <p>Get our daily meal items delivered to your email</p>
       </div>
       <div class="row" id="lastrow">
-            <div class="row" height="70px">
-              <img src="images/footerlogos/logo_white.png" alt="logo_white">
-              <p>Thats What We Are</p>
-            </div>
-           <div class="row" height="70px">
-              <img src="images/footerlogos/facebook.png" alt="logo_white" class="floatLeft">
-              <img src="images/footerlogos/twitter.png" alt="logo_white" class="floatLeft">
-              <img src="images/footerlogos/pinterest.png" alt="logo_white" class="floatLeft">
-          </div>
-          <div class="row" height="70px">
-            <p>2016 Menu Restaurant</p>
-          </div>
+          <br/>
+             <p class="Txtclor4"><img src="images/footerlogos/logo_white.png" alt="logo white"> MENU</p>
+              <p class="Txtclor3">Thats what we are</p>
+              <div class="social-panel">
+                <img src="images/footerlogos/facebook.png">
+                <img src="images/footerlogos/twitter.png">
+                <img src="images/footerlogos/pinterest.png">
+              </div>
+              <p class="Txtclor3">2016 menu restaurant</p>
+          <br/>
       </div>
     </div>
   </body>
