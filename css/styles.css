@@ -110,6 +110,11 @@
 #subscribe {
   background-image: url("../images/backgrounds/subscribe.jpg");
   height: 301px;
+  font-size: 2em;
+  text-align: center;
+  align-items: center;
+  display: block;
+  color: #fff;
 }
 #lastrow {
   /*height: 350px;*/
