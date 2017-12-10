@@ -23,4 +23,4 @@
 *Contact us at support@ip2.exercise.com, sales@ip2.exercise.com
 ### License
 *This site falls under the open liscence*
-*Copyright (c) 2017 **eoabong**
+*Copyleft (c) 2017 **eoabong**
