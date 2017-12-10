@@ -106,6 +106,12 @@
    margin-bottom: 50px;
    height: 450px;
  }
+ .rowbottommargin {
+   margin-bottom: 100px;
+   margin-top: 50px;
+   margin-right: 200px;
+   margin-left: 200px;
+ }
 
 #subscribe {
   background-image: url("../images/backgrounds/subscribe.jpg");
@@ -198,4 +204,9 @@
     padding: 30px;
     /*shadow: 2px, 2px, 2px;*/
     /*width: 150px;*/
+}
+
+.customerfont {
+  font-size: 1.5em;
+  color: #FF5733;
 }
