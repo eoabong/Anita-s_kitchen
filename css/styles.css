@@ -122,7 +122,7 @@ i{
 #foodsbg {
   background-image: url("../images/backgrounds/foodsBg.jpg");
   height: 599px;
-  padding-left: 5%;
+  /*padding-left: 5%;*/
 
 }
 .rowtopbottommargin {
