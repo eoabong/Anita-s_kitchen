@@ -33,7 +33,7 @@ nav{
   opacity: 0.9;
   z-index: 10;
   position: absolute;
-  right: 100%;
+  right: 500%;
 }
 
 #open-nav{
@@ -44,7 +44,7 @@ nav{
 
 }
 i{
-  font-size: 500%;
+  font-size: -1em;
 }
 
 #row1 {
