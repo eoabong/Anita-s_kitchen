@@ -2,6 +2,8 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <!-- font link -->
+    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
     <script src="js/jquery-3.2.1.js"></script>
@@ -13,18 +15,22 @@
   </head>
 
   <body>
+    <!-- The toggle menu -->
+    <i class="ion-navicon" id="open-nav"></i>
+    <nav>
+    <ul>
+      <li><a href="#">Menu</a></li>
+      <li><a href="#">Contact</a></li>
+      <li><a href="#">Events</a></li>
+    </ul>
+    <i class="ion-close-round" id="close-nav"></i>
+    </nav>
+
+
+    <!-- The main page -->
     <div class="container-fluid">
       <div class="jumbotron" id="Header">
-        <div class="dropdown" style="float: left;">
-          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            &#9776;
-          </button>
-          <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-            <button class="dropdown-item" type="button">Home</button>
-            <button class="dropdown-item" type="button">About Us</button>
-            <button class="dropdown-item" type="button">Contact Us</button>
-          </div>
-        </div>
+        
         <div class="alignCenter">
           <img src="images/logoBig.png" alt="logoBig">
             <p>We provide The Best Food</p>
